@@ -4,6 +4,7 @@ var i = 1;
 
 function createDiv(obj) {
 
+    
                     for (j=0; j<obj; j++){
     
                         var div = document.createElement("div");
@@ -58,49 +59,5 @@ function createDiv(obj) {
                        
                     }
                         
-                        
 
-                    // const divs = document.querySelector('div')
-                   
                     
-            
-           
-            
-        
-        // positionX = top;
-        // positionY = left;
-        // setInterval(move, 100);
-        // function move(){
-        //     positionX += 1;
-        //     positionY += 1;
-        //     div.style.top = positionX + "px";
-        //     div.style.left = positionY + "px";
-
-        // }
- 
-        
-
-
-
-// setInterval(move, 100);
-// function move(){
-//     const div = document.getElementById('div_id1');
-//     var x = top;
-//     var y = left;
-//     setInterval(first,1000);
-//     function first(){
-//         x += 1;
-//         y += 1;
-//     console.log(x)
-//         div.style.top = x + "px";
-//         div.style.left = y + "px";
-//     }
-// }
-    
-
-
-
-
-// }
-
-
