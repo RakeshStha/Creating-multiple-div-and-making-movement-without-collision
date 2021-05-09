@@ -47,12 +47,9 @@ function Movement(xposition, yposition, X, Y, divs, index){
     divs.onclick = function(){  
             count ++;
             divs.innerHTML = "Div" + index + ":" +count;
+            document.querySelector(".para").innerHTML = "Selected Div" + index + " = " +count;
+            document.querySelector(".para").style = "font-size: 20px; color: green; font-weight: 600;"
             
-            // var p = document.createElement("p");
-            // p.innerHTML = "Div" + index + ":" +count;
-
-            // const main = document.getElementById("para");
-            // main.append(p)
                
     }
     
