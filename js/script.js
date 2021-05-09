@@ -18,11 +18,10 @@ window.onload = createDiv();
 function createDiv() {
 
     
-                    for (i=0; i<5; i++){
+                    for (i=1; i<5; i++){
     
                         var divs = document.createElement("div");
                             divs.setAttribute('id', 'div_id' + i );
-                            divs.setAttribute('onclick', 'countClick()');
                             divs.innerHTML = "Div" + i;
                     
                             divs.style = "position:absolute;text-align:center;padding-top: 15px; height: 50px;width: 50px; top:" + X + "px; left:" + Y + "px;";
@@ -41,11 +40,22 @@ function createDiv() {
                     }
 
 
-function countClick() {
 
-}
 
 function Movement(xposition, yposition, X, Y, divs, index){
+    let count = 0;
+    divs.onclick = function(){  
+            count ++;
+            divs.innerHTML = "Div" + index + ":" +count;
+            
+            // var p = document.createElement("p");
+            // p.innerHTML = "Div" + index + ":" +count;
+
+            // const main = document.getElementById("para");
+            // main.append(p)
+               
+    }
+    
     setInterval(() => {
         X += xposition;
         divs.style.left = X + "px";
