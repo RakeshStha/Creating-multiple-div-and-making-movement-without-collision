@@ -1,4 +1,4 @@
-# Create-multiple-div-using-JavaScript
+# Creating multiple div and making movement without collision on the boundary of the rectangle.
 HTML, CSS, JavaScript
 
 * First Page (Movement of Div on boundary of rectangle)
