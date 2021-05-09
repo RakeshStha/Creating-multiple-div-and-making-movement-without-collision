@@ -6,8 +6,8 @@ HTML, CSS, JavaScript
 ![1](https://user-images.githubusercontent.com/56125560/117571879-28517a00-b0f0-11eb-8fd8-cf283e06ce75.png)
 
 * When we click on the moving div
-* 
-![2](https://user-images.githubusercontent.com/56125560/117571889-30111e80-b0f0-11eb-9a73-41c15e04f815.png)
+
+![2](https://user-images.githubusercontent.com/56125560/117571930-677fcb00-b0f0-11eb-9039-6c17e7602ad7.png)
 
 * When we create div using button
 
